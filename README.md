@@ -6,8 +6,9 @@
 </p>
 
 > Aplicando alguns conceitos de flexbox
+Flexbox é util para criar layouts responsivos, onde a aplicação se ajuste na tela independente do dispositivo.
 
-
+O desafio será aplicar alguns recursos de flexbox no desenvolvimento do clone do Twitter.
 ## Author
 
 👤 **Marcelo Silva**
