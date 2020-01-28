@@ -270,9 +270,7 @@ div.wrapper-content aside.profile .image ul li {
   margin: 0 5px 10px 0;
 }
 
-.timeline {
-  flex: 1;
-}
+
 
 aside.widgets {
   width: 290px;
@@ -361,4 +359,68 @@ color: #1f2326;
     text-decoration: none;
     color: #ccd6dd;
     font-size: 18px;
+  }
+
+  .timeline {
+    flex: 1;
+    background: #fff;
+    margin: 10px 20px 0;
+    border-radius: 4px;
+  }
+  .timeline nav {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+  }
+
+  .timeline nav a{
+    text-decoration: none;
+    color: #3bb9e3;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .timeline nav a:first-child {
+     margin: 0;
+  }
+
+
+  nav a.activea {
+    color: #000;
+  }
+  .tweets {
+    display: flex;
+    margin: 10px;
+    border-bottom: 1px solid #e6ecf0;
+  }
+  .tweets img {
+    width: 48px;
+    height:48px;
+  }
+  .tweets .info strong span {
+    color: #53626c;
+  }
+
+  .tweets .info p {
+    margin: 5px;
+  }
+  .tweets .actions ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+  }
+
+  .tweets .actions ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .tweets .actions ul li strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: #999;
+    margin-left: 7px;
+  }
+  .tweets .actions ul li img {
+    width: 17px;
   }
