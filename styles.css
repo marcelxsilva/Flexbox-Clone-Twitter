@@ -12,11 +12,13 @@ body {
 }
 input, button { outline: 0;}
 
-header#main-header .content { 
+.content {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 30px;
+}
 
+header#main-header .content { 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -94,4 +96,74 @@ div.banner {
   align-items:center;
   justify-content: center;
   color: #fff;
+}
+
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+div.bar .content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 285px;
+  line-height: 150%;
+}
+
+div.bar .content ul {
+  display: flex;
+  list-style: none;
+  height: 60px;
+}
+
+div.bar .content li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  position: relative;
+}
+.active::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #3bb9e3;
+}
+div.bar .content li span {
+  color: #667580;
+  font-size: 14px;
+  font-weight: bold;
+}
+div.bar .content li strong {
+  color: #667580;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar .content li.active strong {
+  color: #3bb9e3;
+}
+
+div.actions {
+  display: flex;
+  align-items: center;
+}
+div.actions button {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+  background: #fff;
 }
